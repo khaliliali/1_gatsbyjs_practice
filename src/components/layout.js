@@ -64,7 +64,8 @@ const Layout = ({
         ` `
       } 
       <a href = "https://www.gatsbyjs.org" > Gatsby </a> </footer>
-      </div></>
+      </div>
+      </>
     )
   }
   />
