@@ -10,9 +10,11 @@ import Section from '../components/section/section';
 import Info from '../components/info'
 import Dude from '../components/dude';
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <Link to="/products/"> Products Page </Link>
     <Info/>
       <Dude/>
     <Link to="/images/">images</Link>
