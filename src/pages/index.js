@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import { FaApple } from 'react-icons/fa';
+// import { FaApple } from 'react-icons/fa';
 import Section from '../components/section/section';
 import Info from '../components/info'
 import Dude from '../components/dude';
@@ -25,7 +25,7 @@ const IndexPage = () => (
     <Section/>
       <Image />
     </div>
-    <FaApple className="icon" >i am ali also </FaApple>
+    {/* <FaApple className="icon" >i am ali also </FaApple> */}
     <Link to="/page-2/">Go to page 2</Link>
     <Link to="/products/testing/">TEsting</Link>
  
